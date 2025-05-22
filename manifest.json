@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "version": "1.0",
+    "name": "Andy's Unit Converter",
+    "action": {
+        "default_popup": "unitconverterCE.html",
+        "default_icon": "andy.png"
+    },
+    "permissions": [
+        "tabs"
+    ]
+}

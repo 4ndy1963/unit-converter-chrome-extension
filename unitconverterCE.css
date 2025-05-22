@@ -1,0 +1,151 @@
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(122, 75, 211);
+    width: 350px;
+}
+
+#name {
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 0px;
+    margin-top: 8px;
+}
+
+#input {
+    height: 35px;
+    font-size: 28px;
+    width: 150px;
+    border-radius: 20px;
+    text-align: center;
+    margin-bottom: 4px;
+    padding: 0px;
+}
+
+#buttons {
+    display: flex;
+    align-items: center;        
+    justify-content: center;    
+    width: 150px;
+    margin-top: 0px;
+    padding: 0px;
+}
+
+#buttons button {
+    font-size: 15px;
+    height: 30px;
+    margin-right: 2px;
+    margin-left: 2px;
+    border: 1px solid black;
+    font-weight: bold;
+    color: white;
+}
+
+#Submit {
+    background: darkblue;
+}
+#Submit:hover {
+    background: blue;
+}
+
+#Save {
+    background: rgb(1, 85, 1);
+}
+#Save:hover {
+    background: rgb(4, 172, 4);
+}
+
+#Clear {
+    background: rgb(153, 1, 1);
+}
+#Clear:hover {
+    background: rgb(214, 0, 0);
+}
+
+#conversioncontainer {
+    background-color: black;
+    width: 350px;
+    display: flex;
+    align-items: center;  
+    flex-direction: column;
+    margin-top: 6px;
+}
+
+.conversion {
+    background-color: lightgrey;
+    width: 325px;
+    border-radius: 25px;
+    margin-bottom: 3px;
+    margin-top: 3px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+h2 {
+    color: cadetblue;
+    margin-bottom: 0px;
+    font-size: 17px;
+}
+
+p {
+    font-size: 10px;
+    text-align: center;
+}
+
+li {
+    font-size: 10px;
+}
+
+#savecontainer {
+    width: 350px;
+    background-color: #A1CCA5;
+}
+
+#savecontainerbuttons {
+    margin-left: 13px;
+    margin-bottom: 0px;
+    margin-top: 6px;
+}
+
+#savecontainer button {
+    font-size: 15px;
+    height: 25px;
+    margin-right: 2px;
+    margin-left: 2px;
+    border: 1px solid black;
+    font-weight: bold;
+    color: white;
+}
+
+#clearlast {
+    background-color: rgb(167, 94, 4);
+}
+
+#clearlast:hover {
+    background-color: rgb(230, 129, 5);
+}
+
+#clearall {
+    background-color: rgb(105, 1, 105);
+}
+
+#clearall:hover {
+    background-color: rgb(170, 0, 170);
+}
+
+#savelabel {
+    margin-left: 15px;
+    color: white;
+    margin-bottom: 0px;
+    margin-top: 3px;
+    font-size: 18px;
+}
+
+#savelist {
+    color: rgb(81, 81, 81);
+    margin-top: 5px;
+}
